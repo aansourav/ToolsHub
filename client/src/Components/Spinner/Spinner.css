@@ -1,0 +1,127 @@
+/* 26. Preloader */
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #32323289;
+    z-index: 999999;
+    overflow: hidden;
+}
+.preloader .meter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -75px;
+    border: none;
+    /* border: 2px solid #fff; */
+    width: 150px;
+    height: 150px;
+    /* border-radius: 50%; */
+    /* box-shadow: 0px 10px 30px -11px rgba(0, 0, 0, 0.39); */
+}
+.preloader .meter .loadtext {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 14px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+@-webkit-keyframes loaderspin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes loaderspin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes meterIndecator {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    16% {
+        -webkit-transform: rotate(75deg);
+        transform: rotate(75deg);
+    }
+    25% {
+        -webkit-transform: rotate(55deg);
+        transform: rotate(55deg);
+    }
+    30% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    36% {
+        -webkit-transform: rotate(170deg);
+        transform: rotate(170deg);
+    }
+    42% {
+        -webkit-transform: rotate(150deg);
+        transform: rotate(150deg);
+    }
+    50% {
+        -webkit-transform: rotate(227deg);
+        transform: rotate(227deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+@keyframes meterIndecator {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    16% {
+        -webkit-transform: rotate(75deg);
+        transform: rotate(75deg);
+    }
+    25% {
+        -webkit-transform: rotate(55deg);
+        transform: rotate(55deg);
+    }
+    30% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    36% {
+        -webkit-transform: rotate(170deg);
+        transform: rotate(170deg);
+    }
+    42% {
+        -webkit-transform: rotate(150deg);
+        transform: rotate(150deg);
+    }
+    50% {
+        -webkit-transform: rotate(227deg);
+        transform: rotate(227deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}

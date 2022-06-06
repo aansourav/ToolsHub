@@ -1,0 +1,120 @@
+section {
+  display: block;
+}
+
+.stylish-text {
+  font-family: "Great Vibes", cursive;
+}
+.book-button:hover {
+  background-color: #ffffff00;
+}
+
+.fab:hover {
+  color: #000000;
+}
+.section-heading {
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  color: #041e42;
+  margin-bottom: 20px;
+  border-top: 1px solid #dedede;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.section-heading:before {
+  content: "";
+  border-top: 4px solid rgb(255, 60, 25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+}
+.section-heading.white {
+  color: #fff;
+  border-color: #627186;
+}
+
+.box-team {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+  background-color: #041e42;
+  color: #fff;
+}
+.box-team:hover {
+  background-color: #041e42;
+}
+.box-team:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.box-team .box-image {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.box-team .box-image img {
+  display: block;
+  width: 100%;
+}
+.box-team .box-image .sosmed {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 10px 0;
+}
+.box-team .box-image .sosmed .fa {
+  font-size: 18px;
+  color: #041e42;
+  padding: 0 20px;
+}
+.box-team .box-image .sosmed .fa:hover {
+  color: #46c2ca;
+}
+.box-team .body-content {
+  float: left;
+  width: 50%;
+  padding: 30px 30px;
+  position: relative;
+}
+.box-team .body-content .people {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.box-team .body-content .position {
+  color: #46c2ca;
+  font-size: 12px;
+  font-style: italic;
+}
+.box-team .body-content .excert {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.box-team .body-content .phone {
+  font-size: 18px;
+}
+.box-team .body-content .phone .fa {
+  font-size: 30px;
+  color: #d6ff41;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.box-team:hover {
+  background-color: #000000;
+  color: white;
+}
+.box-team:hover .position {
+  color: #fff56d;
+}
+
+.start {
+  left: 82%;
+}
