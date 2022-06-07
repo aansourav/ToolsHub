@@ -1,4 +1,4 @@
-# Tools Hub
+# ToolsHub
 
 ## [Live Site Link](https://toolshub-4c24c.web.app)
 
